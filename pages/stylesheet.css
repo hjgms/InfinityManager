@@ -1,0 +1,134 @@
+#background{
+    background: linear-gradient(to right, black, #002051, black);
+}
+
+/* config da barra */
+.bar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    
+    
+}
+#icone_bar{
+        margin-left: 2%;
+        width: 20px;  
+        height: 14px; 
+        margin-right: 10px; 
+}
+
+#titulo_bar{
+    color: gray;
+    font-family: "Quicksand";
+    font-size: 13px;
+    margin-left: 2%;
+}
+
+
+/* config da barra */
+
+/* config da classe .cabecalho */
+    .Fonte_titulo {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    }
+
+
+    .cabecalho{
+        /* margin-top: 50%;
+        
+        /* margin-right: 50%;
+        margin-bottom: 50%; */
+        position: absolute;
+        text-align: center;
+        padding-left: 45%; 
+        padding-top: 15%;
+        
+        
+    }
+
+    #logo_infinity{
+        width: 120px; 
+    }
+
+    #titulo_cabecalho{
+        font-family: "Quicksand";
+        color: white;
+    }
+
+/* config da classe .cabecalho */
+
+/* config da barra pesquisa */
+
+.barra_pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    height: 90vh; 
+}
+.borda_barra {
+    display: flex;
+    align-items: center;
+    border: 1px solid white; 
+    border-radius: 10px;
+    width: 50%;
+}
+
+#barra{
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 5%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.459);
+    outline: none;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+/* Compatibilidade com navegadores mais antigos */
+#barra::-webkit-input-placeholder {
+    color: white;
+    font-family: "Quicksand";
+    
+}
+
+#barra:-moz-placeholder {
+    color: white;
+    font-family: "Quicksand";
+}
+
+#barra::-moz-placeholder {
+    color: white;
+    font-family: "Quicksand";
+}
+
+#barra:-ms-input-placeholder {
+    color: white;
+    font-family: "Quicksand";
+}
+
+#icone_barra{
+    width:20px;
+    height:20px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#container_icone{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 10%;
+    width:40px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+
+/* config da barra pesquisa */
