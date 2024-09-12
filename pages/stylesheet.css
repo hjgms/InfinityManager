@@ -3,10 +3,23 @@
 }
 
 /* config da barra */
+.app_bar{
+    display: flex;
+    
+}
+.avatar{
+    display: flex;
+    height: 50px;
+    margin-top: 1%;
+    cursor: pointer;
+     
+    
+}
 .bar{
     display: flex;
     justify-content: start;
     align-items: center;
+    width: 95%;
     
     
     
@@ -15,7 +28,8 @@
         margin-left: 2%;
         width: 20px;  
         height: 14px; 
-        margin-right: 10px; 
+        margin-right: 10px;
+        cursor: pointer; 
 }
 
 #titulo_bar{
@@ -23,6 +37,7 @@
     font-family: "Quicksand";
     font-size: 13px;
     margin-left: 2%;
+    
 }
 
 
@@ -34,18 +49,16 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+
     }
 
 
     .cabecalho{
-        /* margin-top: 50%;
-        
-        /* margin-right: 50%;
-        margin-bottom: 50%; */
         position: absolute;
         text-align: center;
         padding-left: 45%; 
-        padding-top: 15%;
+        
+        
         
         
     }
@@ -57,6 +70,7 @@
     #titulo_cabecalho{
         font-family: "Quicksand";
         color: white;
+        
     }
 
 /* config da classe .cabecalho */
@@ -67,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end; 
-    height: 90vh; 
+    height: 19vh; 
 }
 .borda_barra {
     display: flex;
@@ -87,6 +101,7 @@
     padding: 0 10px;
     border-radius: 5px;
     margin-left: 6px;
+    color: white;
 }
 
 /* Compatibilidade com navegadores mais antigos */
@@ -132,3 +147,53 @@
 
 
 /* config da barra pesquisa */
+
+/* config do container de consultas */
+.agrupamento_container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.container_consultas{
+    margin-left: -15%;
+    width: 350px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin-top: 5%;
+    border-radius: 5%;
+    border: 1px solid white;
+    transition-duration: 0.5s;
+}
+.container_consultas:hover{
+    margin-left: 0%;
+    
+}
+
+
+
+.titulo_container{
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    
+}
+#seta_titulo{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-left: 7%;
+    transition: transform 0.5s ease;
+}
+.agrupamento_container:hover #seta_titulo {
+    transform: rotate(180deg);
+    
+}
+.agrupamento_container:hover #titulo_consultas{
+    visibility: hidden;
+}
+#titulo_consultas{
+    color: white;
+    font-family: "Quicksand";
+}
+/* config do container de consultas */
