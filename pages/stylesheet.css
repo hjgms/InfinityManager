@@ -1,6 +1,10 @@
 #background{
     background: linear-gradient(to right, black, #002051, black);
 }
+a {
+    text-decoration: none; 
+    color: inherit; 
+  }
 
 /* config da barra */
 .app_bar{
@@ -153,47 +157,99 @@
     display: flex;
     align-items: center;
     
+    
 }
 
 .container_consultas{
-    margin-left: -15%;
+    margin-left: -300px;
     width: 350px;
     height: 550px;
     background-color: rgba(0, 0, 0, 0.459);
     margin-top: 5%;
     border-radius: 5%;
     border: 1px solid white;
-    transition-duration: 0.5s;
+    transition-duration: 1.0s;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 10;
+    opacity: 0;
 }
-.container_consultas:hover{
-    margin-left: 0%;
+.container_consultas:hover {
+    overflow-y: auto;
+    margin-left: 0px;
+    opacity: 1;
     
 }
+.container_consultas::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+    
+}
+  
 
+.container_consultas::-webkit-scrollbar-thumb {
+    background-color: #EADDFF;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgba(137, 43, 226, 0.377) ; 
+    
+  }
 
 
 .titulo_container{
     margin-left: 1%;
     display: flex;
     align-items: center;
-    
+   
 }
 #seta_titulo{
     cursor: pointer;
     width: 30px;
     height: 30px;
     margin-left: 7%;
-    transition: transform 0.5s ease;
+    transition: all 0.5s ease-in-out 0.2s;
 }
 .agrupamento_container:hover #seta_titulo {
     transform: rotate(180deg);
+    
+    
     
 }
 .agrupamento_container:hover #titulo_consultas{
     visibility: hidden;
 }
+
+
 #titulo_consultas{
     color: white;
     font-family: "Quicksand";
 }
+.lista_consulta{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;    
+
+}
+
+
+.item_lista{
+    background-color:#EADDFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+ 
+}
+#texto_lista{
+    color: white;
+    font-family: "Quicksand";
+    margin-left: 4%;
+}
+
+#titulo_item{
+    margin: 0;
+    font-family: "Quicksand";
+}
+
+
 /* config do container de consultas */

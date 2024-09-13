@@ -1,0 +1,64 @@
+#background{
+    background: linear-gradient(to right, black, #002051, black);
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+
+/* configuracao container principal */
+.container_box{
+    text-align: center;
+    margin-top: 10%;
+    padding-left: 35%;
+    position: absolute;
+    
+}
+.container_login{
+    margin-top: 5%;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 5%;
+}
+#img_logo{
+    height: 70px;
+}
+
+#input_formulario{
+    width: 300px;
+    height: 50px;
+    margin-top: 10%;
+    border: none;
+    outline: none;
+   
+   
+}
+
+#seta_formulario{
+    margin-top: 10%;
+
+}
+/* configuracao container principal */
+
+/* Compatibilidade com navegadores mais antigos */
+/* #input_formulario::-webkit-input-placeholder {
+    color: white;
+    font-family: "Quicksand";
+    
+}
+
+#input_formulario:-moz-placeholder {
+    color: white;
+    font-family: "Quicksand";
+}
+
+#input_formulario::-moz-placeholder {
+    color: white;
+    font-family: "Quicksand";
+}
+
+#input_formulario:-ms-input-placeholder {
+    color: white;
+    font-family: "Quicksand";
+} */
