@@ -1,6 +1,12 @@
 #background{
-    background: linear-gradient(to right, black, #002051, black);
+    background-image: radial-gradient(#002051, black);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 a {
     text-decoration: none; 
     color: inherit; 
@@ -9,30 +15,33 @@ a {
 /* configuracao container principal */
 .container_box{
     text-align: center;
-    margin-top: 10%;
-    padding-left: 35%;
-    position: absolute;
-    
+    margin-top: 12%;
+    /* padding-left: 35%;
+    position: absolute; */
 }
 .container_login{
     margin-top: 5%;
-    width: 600px;
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.459);
+    height: 300px;
+    width: 420px;
+    background-color: #171819;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #img_logo{
-    height: 70px;
+    height: 55px;
 }
 
 #input_formulario{
     width: 300px;
     height: 50px;
-    margin-top: 10%;
+    margin-bottom: 25px;
     border: none;
     outline: none;
-   
-   
+    background-color: transparent;
+    border-bottom: 2px solid #723EEC;
 }
 
 #seta_formulario{
