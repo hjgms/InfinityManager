@@ -31,7 +31,12 @@
     </div>
 
     <div class="container_central">
-        <p id="texto_container_central">Arraste sua planilha para gerar o insight</p>
+        <label class="arquivo" for="input_arquivos" tabindex="0">
+            <input type="file" accept=".csv, .application/pdf" id="input_arquivos">
+            <span class="texto_container">Arraste sua planilha para gerar o insight</span>
+        </label>
+        
+        <!-- <p id="texto_container_central">Arraste sua planilha para gerar o insight</p> -->
     </div>
     <div class="botoes_central">
         <button id="botao_csv">CSV</button>
