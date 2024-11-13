@@ -84,7 +84,7 @@ a {
     border: 1px solid white;
     opacity: 0;
     transition: opacity 0.3s ease;
-    margin-top: 30px;
+    margin-top: 10px;
     z-index: 10;
 
     
@@ -111,7 +111,6 @@ a {
 /* config conteudo(container central) */
 
 .container_central{
-    margin-top: 40px;
     width: 1000px;
     height: 600px;
     background-color: rgba(0, 0, 0, 0.459);
@@ -129,7 +128,13 @@ a {
     
     
 } */
-
+/* config conteudo(titulo central) */
+#titulo_central{
+    font-family: "Quicksand";
+    color: white;
+    margin-top: 30px;
+}
+/* config conteudo(titulo central) */
 .botoes_central{
     display: flex;
     margin-left: 100px;
@@ -166,10 +171,43 @@ a {
     align-items: center;
     transition: background 300ms ease-in-out ;
     cursor: pointer;
+    position: relative;
 }
 
 .arquivo:hover{
-    background-color: rgba(128, 128, 128, 0.582);
+    background-color: rgba(128, 128, 128, 0.096);
     border-radius: 2%;
 }
 /* config input(container central) */
+/* config container verificacao(container central) */
+.container_verificacao{
+    width: 350px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.527);
+    position: absolute;
+    border-radius: 2%;
+    opacity: 0;
+}
+.botoes_central_verificacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+#botao_cancelar, #botao_gerar{
+    color: white;
+    background-color: blueviolet;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 1%;
+    cursor: pointer;
+  
+    
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
+/* config container verificacao(container central) */

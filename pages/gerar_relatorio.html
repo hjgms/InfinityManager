@@ -32,10 +32,16 @@
     
     <h2 id="titulo_central">Gerar Relatório</h2>
 
-    <div class="container_central"></div>
+    <div class="container_central">
+        <label class="arquivo" for="input_arquivos" tabindex="0">
+            <input type="file" accept=".csv, .pdf,  .application/pdf" id="input_arquivos">
+            <span class="texto_container">Arraste sua planilha para gerar o relatório</span>
+        </label>
+    </div>
     <div class="botoes_central">
         <button id="botao_csv">CSV</button>
         <button id="botao_pdf">PDF</button>
     </div>
+
 </body>
 </html>

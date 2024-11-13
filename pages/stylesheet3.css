@@ -148,3 +148,25 @@ a {
 }
 
 /* config conteudo(container central) */
+/* config input(container central) */
+#input_arquivos{
+    display: none;
+}
+.arquivo{
+    width:1000px;
+    height:600px;
+    display: block;
+    color: white;
+    font-family: "Quicksand";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 300ms ease-in-out ;
+    cursor: pointer;
+}
+
+.arquivo:hover{
+    background-color: rgba(128, 128, 128, 0.096);
+    border-radius: 2%;
+}
+/* config input(container central) */
